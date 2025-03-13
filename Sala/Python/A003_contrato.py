@@ -1,10 +1,10 @@
 print("Para começar as interaçoes, precisamos de algumas informações.)\n")
 
-nome = str(input(print("Qual seu nome? \n")))
+nome = str(input("Qual seu nome? \n"))
 
-endereco = str(input(print("Agora preciso de seu endereço: ", "\n")))
+endereco = str(input("Agora preciso de seu endereço: ", "\n"))
 
-telefone = str(input(print("Por ultimo me informe o seu numero de telefone: \n")))
+telefone = str(input("Por ultimo me informe o seu numero de telefone: \n"))
 
 print("Verifique se as informações estão corretas:")
 

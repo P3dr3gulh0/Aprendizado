@@ -1,4 +1,4 @@
-numero1 = int(input(print("Digite um numero: ")))
+numero1 = int(input("Digite um numero: "))
 numero2 = 2
 divisao = numero1 % numero2
 
