@@ -10,6 +10,6 @@ public class Exercicio4 {
             System.out.println(numero + "*" + operador + "=" +numero * operador);
 
         }
-        scanner.close();
+
     }
 }

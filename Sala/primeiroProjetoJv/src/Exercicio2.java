@@ -14,8 +14,7 @@ public class Exercicio2{
 
         int soma = numero1 + numero1;
 
-        System.out.println("A soma de "+numero1 + " mais " + numero2 + "é igual a " + soma);
+        System.out.println("A soma de "+numero1 + " mais " + numero2 + " é igual a " + soma);
 
-        scanner.close();
     }
 }

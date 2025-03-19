@@ -12,7 +12,6 @@ public class Exercicio10 {
         strBui.reverse();
         System.out.println(strBui);
 
-        scanner.close();
     }
 }
 //Peça ao usuário para inserir uma palavra e exiba essa palavra ao contrário

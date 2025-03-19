@@ -16,7 +16,7 @@ public class Exercicio6 {
         }else {
             System.out.println("Você não passou, ficou abaixo da media com " + media + " pontos");
         }
-        scanner.close();
+
 
     }
 }

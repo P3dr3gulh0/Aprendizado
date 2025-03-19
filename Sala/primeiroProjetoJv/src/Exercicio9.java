@@ -6,7 +6,7 @@ public class Exercicio9 {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        int numero = random.nextInt(101);
+        int numero = random.nextInt(100+ 1);
         boolean acertou = false;
 
         while (!acertou){
@@ -22,7 +22,7 @@ public class Exercicio9 {
                 acertou = true;
             }
         }
-        scanner.close();
+
     }
 }
 //Desenvolva um jogo onde o programa gera um número aleatório entre 1 e 100 e o
