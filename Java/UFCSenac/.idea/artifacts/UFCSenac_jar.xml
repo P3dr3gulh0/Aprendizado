@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UFCSenac:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UFCSenac_jar</output-path>
+    <root id="archive" name="UFCSenac.jar">
+      <element id="module-output" name="UFCSenac" />
+    </root>
+  </artifact>
+</component>

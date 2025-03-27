@@ -8,7 +8,7 @@ public class Comprimentar {
             System.out.println("Bom dia!");
         } else if (hora>1200 && hora<1800){
             System.out.println("Boa tarde!");
-        }else if(hora>=1800 && hora<0000){
+        }else if(hora>=1800 && hora<2400){
             System.out.println("Boa noite!");
         }else{
             System.out.println("Horario invalido");
