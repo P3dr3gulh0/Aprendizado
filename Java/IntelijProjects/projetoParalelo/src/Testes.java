@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Testes {
@@ -23,17 +24,17 @@ public class Testes {
 //atualizados, um valor por linha.
         }
     }
-    public static void atividade2(){
+    public static void atividade2() {
         Scanner sc = new Scanner(System.in);
 
         int[] numeros = new int[10];
-        for(int i = 0; i <= 9; i++) {
+        for (int i = 0; i <= 9; i++) {
             System.out.println("Escreva um numero para a lista: ");
             numeros[i] = sc.nextInt();
 
         }
         sc.close();
-        for(int j = 9; j >=0; j--){
+        for (int j = 9; j >= 0; j--) {
             System.out.println(numeros[j]);
         }
 //Faça um programa que peça ao
@@ -43,10 +44,12 @@ public class Testes {
 
     }
 
+    public static void testes () {
+    }
 
-
-    public static void main(String[] args) {
-    atividade1();
-    atividade2();
+    public static void main (String[]args){
+                testes();
+//    atividade1();
+//    atividade2();
     }
 }

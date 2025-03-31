@@ -67,7 +67,10 @@ public class Luta {
                 lutador1.setEmpates(1);
                 lutador2.setEmpates(1);
             }
+        }else{
+            JOptionPane.showMessageDialog(null, "Sem luta!");
         }
+
     }
 
 }
