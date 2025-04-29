@@ -1,12 +1,21 @@
 body{
     text-align: center;
     background-color:#fffaf5;
+    padding: 30px;
+    margin: 0;
+}
+header{
+    text-align: center;
+    margin-bottom: 30px;
 }
 h1{
     color: #5A3E2B;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 h2{
     color: #856540;
+    font-size: 1.8em;
 }
 .textobasic{
     color: #856540;
@@ -18,14 +27,16 @@ h2{
     font-weight: bold;
     text-align: left;
 } 
-p{
+h3{
     color: #5A3E2B;
+    margin-bottom: 2px;
 }
 li{
     justify-content: space-between;
     margin: 10px 0;
     display: flex;
     color: #744b1e;
+    padding-left: 5px;
 }
 span{
     color: #5A3E2B;
@@ -42,14 +53,14 @@ hr{
     max-height: 700px;
     background-color: white;
     opacity: 90%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
     box-shadow: 0 3px 2px rgb(163, 163, 163);
 }
 
 img{
-    max-width: 300px;
-    max-height: 300;
+    max-width: 500px;
+    max-height: 500px;
     border-radius: 20px;
 }
