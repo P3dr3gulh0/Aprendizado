@@ -55,6 +55,6 @@ while continuar == "s" or continuar == "S":
 print("A media de salario do grupo intrevistado é: ", mediaSalario)
 print("A maior idade do grupo é: ", maioridade, "\n E a menor é:", menoridade)
 print("A quantidade de mulheres na região.", qtnfeminino)
-print("O menor salario é R${}.00 a pessoa com esse salario tem {} anos e é {}".format(menorSalario, idadeMenorSalario, sexoMenorSalario))
+print("O menor salario é R${}0 a pessoa com esse salario tem {} anos e é {}".format(menorSalario, idadeMenorSalario, sexoMenorSalario))
 
     
