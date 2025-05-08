@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #111;
+  overflow: hidden;
+  cursor: none; /* opcional: esconde o cursor */
+}
+
+#seguidor {
+  width: 30px;
+  height: 30px;
+  background: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.05s linear;
+  pointer-events: none;
+}
